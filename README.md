@@ -1,5 +1,10 @@
 # PyPhys2D
-<p>PyPhys2D is a 2D physic engine framework written in python. This is a simple project for Intro to Game Programming Class. The framework depend on some of the Pygame&apos;s module for the Vector2 and the debug rendering.</p>
+PyPhys2D is a 2D physic engine framework written in python. This is a simple project for Intro to Game Programming Class. The framework depend on some of the Pygame&apos;s module for the Vector2 and the debug rendering.
+
+# Demo
+I also include a demo on how to use the module.
+
+![PyPhys2D Demo](https://github.com/ZleashX/PyPhys2D/assets/113892429/2e424fe2-75b8-48d1-8fa1-b4be548d2835)
 
 # Documentation
 ## Body
@@ -109,6 +114,3 @@ def removebody(self, body):
     - body: An instance of the Body class to be removed from the world.
     """
 ```
-
-# Demo
-I also include a demo on how to use the module.
