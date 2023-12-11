@@ -28,6 +28,9 @@ class Body:
     def _move(self, amount):
         self.position += amount
 
+    def _applyTrans(self):
+        return
+
     def addforce(self, xforce, yforce):
         self.force += Vector2(xforce,yforce)
 
@@ -54,9 +57,6 @@ class Circle(Body):
             self.invinertia = 1/self.inertia
         else:
             self.invinertia = 0
-
-    def _applyTrans(self):
-        return
     
     def _projCircle(self, axis):
         direction = Vector2.normalize(axis)
